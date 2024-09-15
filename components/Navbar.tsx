@@ -7,20 +7,22 @@ import {motion} from 'framer-motion'
 export default function Navbar() {
     const [activeSec, setActiveSec] = useState('Me');
 
-    // Function for highlighting navbar section onscroll
-    window.addEventListener('scroll', () => {
-        console.log(scrollY)
-        document.querySelectorAll<HTMLElement>("section[id]").forEach( sec => {
-            console.log("Top:" + sec.offsetTop);
-            if(window.scrollY >= (sec.offsetTop - (sec.offsetHeight/2))  &&
-                window.scrollY <= (sec.offsetTop + (sec.offsetHeight/2))){
-                let id = sec.getAttribute('id');
-                if (id != null){
-                    setActiveSec(id);
+    if (typeof window !== "undefined") {
+        // Function for highlighting navbar section onscroll
+        window.addEventListener('scroll', () => {
+            console.log(scrollY)
+            document.querySelectorAll<HTMLElement>("section[id]").forEach( sec => {
+                console.log("Top:" + sec.offsetTop);
+                if(window.scrollY >= (sec.offsetTop - (sec.offsetHeight/2))  &&
+                    window.scrollY <= (sec.offsetTop + (sec.offsetHeight/2))){
+                    let id = sec.getAttribute('id');
+                    if (id != null){
+                        setActiveSec(id);
+                    }
                 }
-            }
-        })
-    })
+            })
+            })
+      }
 
 
     const links = ["Me", "Mathematics", "Creative Works", "Misc"]
