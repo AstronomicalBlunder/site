@@ -12,9 +12,8 @@ export default function CreativeWorks() {
             <div className = "h-full w-[75vw] md:w-[25vw] flex flex-col justify-start items-center gap-5 lg:gap-10 px-2.5">
             <svg>
                     </svg>
-                <h1 className="text-lg md:text-xl lg:text-2xl font-semibold text-sky-300">Webcomic</h1>
-                <ul className="list-disc">
-                </ul>
+                <h1 className="text-lg md:text-xl lg:text-2xl font-semibold text-sky-300">Some Art</h1>
+                To Be Added.
             </div>
             <div className = "h-full w-[75vw] md:w-[25vw] flex flex-col justify-start items-center gap-5 lg:gap-10 px-2.5">
             <svg className="hidden md:block h-16 w-16 lg:h-24 lg:w-24" xmlns="http://www.w3.org/2000/svg"
@@ -28,16 +27,16 @@ export default function CreativeWorks() {
                 <h1 className="text-lg md:text-xl lg:text-2xl font-semibold text-sky-300">Selected Writings</h1>
                 <ul className="list-disc">
                     <li>
-                        <InlineLink text='Unfolded' url='/pdfs/CreativeWriting/Unfolded.pdf'/>: a short sci-fi story, probably the work I'm proudest of. Mentored and edited by the absolutely wonderful <InlineLink text='Scott Hutchins' url='https://www.goodreads.com/author/show/5280934.Scott_Hutchins'/>.
+                        <InlineLink text='Unfolded' url='/site/pdfs/CreativeWriting/Unfolded.pdf'/>: a short sci-fi story, probably the work I'm proudest of. Mentored and edited by the absolutely wonderful <InlineLink text='Scott Hutchins' url='https://www.goodreads.com/author/show/5280934.Scott_Hutchins'/>.
                     </li>
                     <li>
-                        <InlineLink text='Colourless' url='/pdfs/CreativeWriting/Colourless.pdf'/>: my entry in a flash fiction competition, back when I attended a British-curriculum high-school (hence the spelling).
+                        <InlineLink text='Colourless' url='/site/pdfs/CreativeWriting/Colourless.pdf'/>: my entry in a flash fiction competition, back when I attended a British-curriculum high-school (hence the spelling).
                     </li>
                     <li>
-                        <InlineLink text='Three Seconds' url='/pdfs/CreativeWriting/Three Seconds.pdf'/>: a short poem from the perspective of Mother Nature.
+                        <InlineLink text='Three Seconds' url='/site/pdfs/CreativeWriting/Three Seconds.pdf'/>: a short poem from the perspective of Mother Nature.
                     </li>
                     <li>
-                        <InlineLink text='WhYuPenN' url='/pdfs/CreativeWriting/WhyCollegeJoke.pdf'/>: a joke essay I wrote out of frustration while in the depths of college applications. Sorry UPenn.
+                        <InlineLink text='WhYuPenN' url='/site/pdfs/CreativeWriting/WhyCollegeJoke.pdf'/>: a joke essay I wrote out of frustration while in the depths of college applications. Sorry UPenn.
                     </li>
                 </ul>
             </div>

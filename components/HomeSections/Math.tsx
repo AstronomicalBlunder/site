@@ -106,16 +106,16 @@ export default function Math() {
                 <h1 className="text-lg md:text-xl lg:text-2xl  font-semibold text-sky-300">Exposition</h1>
                 <ul className="list-disc">
                   <li>
-                    A presentation I gave on <InlineLink text='Seifert Surfaces' url='/PPTs/SeifertSurfaces.pptx'/> with some cool neat transitions. 
+                    A presentation I gave on <InlineLink text='Seifert Surfaces' url='/site/PPTs/SeifertSurfaces.pptx'/> with some cool neat transitions. 
                   </li>
                   <li>
-                    Paper on <InlineLink text='Dinitz Theorem' url='/pdfs/Math/DinitzThm.pdf'/>, written as a final expository paper for a Graph Theory course. 
+                    Paper on <InlineLink text='Dinitz Theorem' url='/site/pdfs/Math/DinitzThm.pdf'/>, written as a final expository paper for a Graph Theory course. 
                   </li>
                   <li>
-                    A <InlineLink text='Probabilistic Method crash-course' url='/pdfs/Math/ProbabilisticMethod.pdf'/>, originally written as a series of mini-lectures for Math75SI students. The examples range from game theory to graph theory to Euclidean geometry. 
+                    A <InlineLink text='Probabilistic Method crash-course' url='/site/pdfs/Math/ProbabilisticMethod.pdf'/>, originally written as a series of mini-lectures for Math75SI students. The examples range from game theory to graph theory to Euclidean geometry. 
                   </li>
                   <li> 
-                    A short introduction to the <InlineLink text='Polynomial Trick' url='/pdfs/Math/PolysInComb.pdf'/> used to generate bounds on combinatorial problems by dimensionality arguments of a specially constructed space of polynomials.
+                    A short introduction to the <InlineLink text='Polynomial Trick' url='/site/pdfs/Math/PolysInComb.pdf'/> used to generate bounds on combinatorial problems by dimensionality arguments of a specially constructed space of polynomials.
                   </li>
                 </ul>
             </div>
@@ -612,10 +612,10 @@ export default function Math() {
                     Some <InlineLink text='LaTeX Templates' url='https://github.com/AstronomicalBlunder/LaTeX-Templates'/> I made for notes, problem sets, etc.
                   </li>
                   <li>
-                    <InlineLink text='How to Write Proofs' url='/pdfs/Math/ProofWriting.pdf'/>, compiled by me and some fellow counselors at PROMYS 2022.
+                    <InlineLink text='How to Write Proofs' url='/site/pdfs/Math/ProofWriting.pdf'/>, compiled by me and some fellow counselors at PROMYS 2022.
                   </li>
                   <li>
-                    <InlineLink text='How to Give a Math Talk' url='/pdfs/Math/How to Give A Math Talk.pdf'/>, by me and the wonderful Andrew Lee. While created for mini-talks, the advice generalizes. Also see: John McCarthy's <InlineLink text='How to Give a Good Colloquium' url='https://www.ams.org/profession/leaders/workshops/gcoll.pdf'/> (though I disagree with #12 and the sandwiched clause of #4).
+                    <InlineLink text='How to Give a Math Talk' url='/site/pdfs/Math/How to Give A Math Talk.pdf'/>, by me and the wonderful Andrew Lee. While created for mini-talks, the advice generalizes. Also see: John McCarthy's <InlineLink text='How to Give a Good Colloquium' url='https://www.ams.org/profession/leaders/workshops/gcoll.pdf'/> (though I disagree with #12 and the sandwiched clause of #4).
                   </li>
                   <li>
                   If you're at Stanford: Consider getting involved in <InlineLink text='SUMO' url='https://sumo.stanford.edu'/>, writing for <InlineLink text='Cardinality' url='https://sumo.stanford.edu/cardinality.html'/>, and taking <InlineLink text='Math75SI' url='https://explorecourses.stanford.edu/search?q=MATH+75SI%3a+Learn+to+Give+a+Math+Talk&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20232024'/>.
