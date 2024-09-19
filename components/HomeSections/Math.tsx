@@ -620,6 +620,9 @@ export default function Math() {
                   <li>
                   If you're at Stanford: Consider getting involved in <InlineLink text='SUMO' url='https://sumo.stanford.edu'/>, writing for <InlineLink text='Cardinality' url='https://sumo.stanford.edu/cardinality.html'/>, and taking <InlineLink text='Math75SI' url='https://explorecourses.stanford.edu/search?q=MATH+75SI%3a+Learn+to+Give+a+Math+Talk&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20232024'/>.
                   </li>
+                  <li>
+                    Some texts I (and everyone should) keep in mind in any educational context are Paulo Freire's <InlineLink text='Pedagogy of the Oppressed' url='https://envs.ucsc.edu/internships/internship-readings/freire-pedagogy-of-the-oppressed.pdf'/> and Bell Hooks' <InlineLink text='Teaching to Transgress' url='https://archive.org/details/teachingtotransg0000hook/mode/2up'/>.
+                  </li>
                 </ul>
             </div>
         </div>

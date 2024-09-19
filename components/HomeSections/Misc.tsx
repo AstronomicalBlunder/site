@@ -13,9 +13,6 @@ export default function Misc() {
           <ul className="list-disc indent-1 space-y-2">
             <li> <InlineLink text='This site' url='https://github.com/AstronomicalBlunder/site'/>, built using a Nextjs framework with Tailwind CSS. </li>
             <li> I've maintained and designed the <InlineLink text='SUMO Website' url='https://sumo.stanford.edu'/> for the past couple of years </li>
-            <li> If you're interested in learning to code I can't recommend a better starting resource than the
-               <InlineLink text='CS106B Archive by Keith Schwarz' url='https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1214/'/>.
-            </li>
           </ul>
         </li>
         <li>
@@ -52,6 +49,7 @@ export default function Misc() {
             </li>
           </ul>
         </li>
+        <hr></hr>
       </ul>
     </section>
   )
