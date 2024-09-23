@@ -8,7 +8,7 @@ export default function Math() {
   return (
     <section className="h-fit md:h-screen md:snap-center md:snap-always pt-20 scroll-mt-40"
     id="Mathematics">
-        <div className="h-full w-[100vw] flex flex-col gap-5 md:gap-0 md:flex-row justify-evenly items-center text-xs lg:text-sm xl:text-base mb-64 lg:mb-0 ">
+        <div className="h-full w-[100vw] flex flex-col gap-20 md:gap-0 md:flex-row justify-evenly items-center text-xs lg:text-sm xl:text-base mb-64 lg:mb-0 ">
             <div className = "h-full w-[75vw] md:w-[25vw] flex flex-col justify-start items-center gap-5 lg:gap-10 px-2.5">
             <svg className= "hidden md:block h-16 w-16 lg:h-24 lg:w-24"xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 480 480">
@@ -66,7 +66,7 @@ export default function Math() {
                             198.97,37.43 175.76,34.17 153.00,36.28 Z" />
                     </svg>
                 <h1 className="text-lg md:text-xl lg:text-2xl font-semibold text-sky-300">Research</h1>
-                <ul className="list-disc">
+                <ul className="list-disc space-y-1">
                     <li> 
                         <p> 
                             <InlineLink text="REU" url='https://surim.stanford.edu/sites/g/files/sbiybj26191/files/media/file/ben_and_spencer_group_1.pdf'/> on <b>Supersingular Diagonal Curves</b> at SURIM 2023. Done in collaboration with MachaDom and RPCat.
@@ -104,20 +104,18 @@ export default function Math() {
 			c10.656,0,18.321,8.016,18.321,18.667V472.705z"/>
                     </svg>
                 <h1 className="text-lg md:text-xl lg:text-2xl  font-semibold text-sky-300">Exposition</h1>
-                <ul className="list-disc">
+                <ul className="list-disc space-y-1">
                   <li>
-                    A presentation I gave on <InlineLink text='Seifert Surfaces' url='/site/PPTs/SeifertSurfaces.pptx'/> with some cool neat transitions. 
+                    A presentation I gave on <InlineLink text='Seifert Surfaces' url='/PPTs/SeifertSurfaces.pptx'/> with some neat transitions. 
                   </li>
                   <li>
-                    Paper on <InlineLink text='Dinitz Theorem' url='/site/pdfs/Math/DinitzThm.pdf'/>, written as a final expository paper for a Graph Theory course. 
+                    Some notes on <InlineLink text="Kontsevichs' Conjecture" url="/pdfs/Math/KontsevichConj.pdf"/>, adapted from a course taught by Prof. <InlineLink text='Melody Chan' url="https://www.math.brown.edu/mchan2/"/>.
                   </li>
                   <li>
-                    A <InlineLink text='Probabilistic Method crash-course' url='/site/pdfs/Math/ProbabilisticMethod.pdf'/>, originally written as a series of mini-lectures for Math75SI students. The examples range from game theory to graph theory to Euclidean geometry. 
-                  </li>
-                  <li> 
-                    A short introduction to the <InlineLink text='Polynomial Trick' url='/site/pdfs/Math/PolysInComb.pdf'/> used to generate bounds on combinatorial problems by dimensionality arguments of a specially constructed space of polynomials.
+                    A <InlineLink text='Probabilistic Method crash-course' url='/pdfs/Math/ProbabilisticMethod.pdf'/>, originally written as a series of mini-lectures for Math75SI students. The examples range from game theory to graph theory to Euclidean geometry. 
                   </li>
                 </ul>
+                <Button buttonText='See More' buttonLink='/Exposition'></Button>
             </div>
             <div className = "h-full w-[75vw] md:w-[25vw] flex flex-col justify-start items-center gap-5 lg:gap-10 px-2.5">
             <svg className="hidden md:block h-16 w-16 lg:h-24 lg:w-24" xmlns="http://www.w3.org/2000/svg"
@@ -606,24 +604,22 @@ export default function Math() {
                           242.00,500.09 252.00,497.00 252.00,497.00
                           250.31,488.63 249.46,485.84 243.00,480.00 Z"/>
                     </svg>
-                <h1 className="text-lg md:text-xl lg:text-2xl font-semibold text-sky-300">Pedagogy</h1>
-                <ul className="list-disc">
+                <h1 className="text-lg md:text-xl lg:text-2xl font-semibold text-sky-300">Pedagogy and Outreach</h1>
+                <ul className="list-disc space-y-1">
                   <li>
-                    Some <InlineLink text='LaTeX Templates' url='https://github.com/AstronomicalBlunder/LaTeX-Templates'/> I made for notes, problem sets, etc.
+                    I've taught (and taken!) <InlineLink text='Math75SI' url='https://explorecourses.stanford.edu/search?q=MATH+75SI%3a+Learn+to+Give+a+Math+Talk&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20232024'/> at Stanford.
                   </li>
                   <li>
-                    <InlineLink text='How to Write Proofs' url='/site/pdfs/Math/ProofWriting.pdf'/>, compiled by me and some fellow counselors at PROMYS 2022.
+                    I was a counselor at the <InlineLink text="PROMYS" url="https://promys.org/"/> 2022 and head counselor at <InlineLink text='SUMaC' url="https://sumac.spcs.stanford.edu/"/> 2024.
                   </li>
                   <li>
-                    <InlineLink text='How to Give a Math Talk' url='/site/pdfs/Math/How to Give A Math Talk.pdf'/>, by me and the wonderful Andrew Lee. While created for mini-talks, the advice generalizes. Also see: John McCarthy's <InlineLink text='How to Give a Good Colloquium' url='https://www.ams.org/profession/leaders/workshops/gcoll.pdf'/> (though I disagree with #12 and the sandwiched clause of #4).
-                  </li>
-                  <li>
-                  If you're at Stanford: Consider getting involved in <InlineLink text='SUMO' url='https://sumo.stanford.edu'/>, writing for <InlineLink text='Cardinality' url='https://sumo.stanford.edu/cardinality.html'/>, and taking <InlineLink text='Math75SI' url='https://explorecourses.stanford.edu/search?q=MATH+75SI%3a+Learn+to+Give+a+Math+Talk&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20232024'/>.
+                    I co-founded and named <InlineLink text='Cardinality' url='https://sumo.stanford.edu/cardinality'/>, Stanford's first-ever undergrad math journal.
                   </li>
                   <li>
                     Some texts I (and everyone should) keep in mind in any educational context are Paulo Freire's <InlineLink text='Pedagogy of the Oppressed' url='https://envs.ucsc.edu/internships/internship-readings/freire-pedagogy-of-the-oppressed.pdf'/> and Bell Hooks' <InlineLink text='Teaching to Transgress' url='https://archive.org/details/teachingtotransg0000hook/mode/2up'/>.
                   </li>
                 </ul>
+                <Button buttonText='Some Resources' buttonLink='/Resources'/>
             </div>
         </div>
     

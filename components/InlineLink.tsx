@@ -8,7 +8,7 @@ type InlineLinkProps = {
 const InlineLink: React.FC<InlineLinkProps> = ({text, url}) => {
   return (
     <a href={url} target="_blank" className="underline text-sky-400
-    hover:text-sm  lg:hover:text-base xl:hover:text-lg hover:text-red-400 transition-all duration-200">{text}</a>
+    hover:font-medium hover:text-red-400 transition-all duration-300">{text}</a>
   )
 }
 

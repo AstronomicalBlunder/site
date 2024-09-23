@@ -31,14 +31,14 @@ export default function NavLinks() {
             border  border-white border-opacity-50 bg-slate-800 bg-opacity-80
             shadow-lg shadow-black backdrop-blur-[0.5rem]
             md:top-5 md:rounded-full md:w-[75vw] md:h-[4rem]">
-                <nav className="flex flex-wrap h-full py-2 md:py-0">
-                    <ul className="h-full w-full flex flex-row justify-between items-center px-6
+                <nav className="flex flex-wrap h-full py-0 md:py-2">
+                    <ul className="h-full w-full flex flex-wrap justify-between items-center px-6
                     text-slate-300 font-medium text-sm md:text-lg
                     md:flex-nowrap md:gap-5">
                         {links.map(link => 
-                            <li key={`#${link}`} className="flex w-full items-center justify-center relative">
-                                <Link className={clsx("transition-all hover:text-slate-50 hover:text-xl flex w-full items-center justify-center py-2 px-2", 
-                                {"text-slate-50 text-xl": activeSec === link })}
+                            <li key={`#${link}`} className="flex lg:w-full items-center justify-center relative">
+                                <Link className={clsx("transition-all hover:text-slate-50 hover:text-base md:hover:text-xl flex w-full items-center justify-center py-2 px-2", 
+                                {"text-slate-50 text-base md:text-xl": activeSec === link })}
                                     href={`#${link}`}
                                     // Highlight correct section of navbar onclick
                                     onClick={() => {setActiveSec(link)}}

@@ -1,5 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
+  "/DigitalArt/page": "app/DigitalArt/page.js",
+  "/T-Shirts/page": "app/T-Shirts/page.js",
+  "/Exposition/page": "app/Exposition/page.js",
+  "/Drawings/page": "app/Drawings/page.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/Resources/page": "app/Resources/page.js"
 }
