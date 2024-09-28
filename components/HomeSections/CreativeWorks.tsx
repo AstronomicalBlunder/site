@@ -39,7 +39,7 @@ export default function CreativeWorks() {
                 <h1 className="text-lg md:text-xl lg:text-2xl font-semibold text-sky-300">Selected Writings</h1>
                 <ul className="list-disc space-y-1">
                     <li>
-                        <InlineLink text='Unfolded' url='/pdfs/CreativeWriting/Unfolded.pdf'/>: a short sci-fi story, probably the work I'm proudest of. Mentored and edited by the absolutely wonderful <InlineLink text='Scott Hutchins' url='https://www.goodreads.com/author/show/5280934.Scott_Hutchins'/>.
+                        <InlineLink text='Unfolded' url='/pdfs/CreativeWriting/Unfolded.pdf'/>: a short sci-fi story, probably the work I'm proudest of. Mentored and edited by the absolutely wonderful Scott Hutchins.
                     </li>
                     <li>
                         <InlineLink text='Colourless' url='/pdfs/CreativeWriting/Colourless.pdf'/>: my entry in a flash fiction competition, back when I attended a British-curriculum high-school (hence the spelling).

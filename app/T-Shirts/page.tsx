@@ -18,6 +18,11 @@ export default function Page() {
           </img>
         </li>
         <li>
+          <h2> Fullmetal Alchemist </h2>
+          <img src='/images/T-Shirts/FMAB.jpeg' className=" w-1/3 lg:w-1/4 items-center">
+          </img>
+        </li>
+        <li>
           <h2>PROMYS 2022</h2>
           <img src='/images/T-Shirts/PROMYS2022.jpeg' className=" w-1/3 lg:w-1/4 items-center">
           </img>

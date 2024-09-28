@@ -43,6 +43,7 @@ export default function Me() {
                 </p>
                 <div className="flex flex-row w-full justify-center gap-10 mb-10">
                   <Button buttonLink="/pdfs/CV.pdf" buttonText='My CV'/> 
+                  <Button buttonLink="/AboutMe" buttonText='More About Me'/> 
                 </div>
             </motion.div>
             <svg className="h-72 w-72 mt-40 lg:h-96 lg:w-96 lg:mt-0"

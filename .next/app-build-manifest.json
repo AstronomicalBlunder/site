@@ -16,25 +16,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/T-Shirts/page.js"
     ],
-    "/DigitalArt/page": [
+    "/AboutMe/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/DigitalArt/page.js"
-    ],
-    "/Drawings/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Drawings/page.js"
-    ],
-    "/Resources/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Resources/page.js"
-    ],
-    "/Exposition/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Exposition/page.js"
+      "static/chunks/app/AboutMe/page.js"
     ]
   }
 }

@@ -74,7 +74,7 @@ export default function Math() {
                     </li>
                     <li>
                         <p>
-                            (Ongoing) <InlineLink text="Honors Thesis" url='https://github.com/AstronomicalBlunder/Math-Writing/blob/main/Senior%20Thesis/ThesisNotes.pdf'/> on Iwasawa-Tate theory, supervised by Prof. Brian Conrad. Updated every week or so.
+                            (Ongoing) <InlineLink text="Honors Thesis" url='https://github.com/AstronomicalBlunder/Math-Writing/blob/main/Senior%20Thesis/ThesisNotes.pdf'/> on number-theoretic Langlands, supervised by Prof. Brian Conrad. Updated every week or so.
                         </p>
                     </li>
                 </ul>
@@ -109,10 +109,10 @@ export default function Math() {
                     A presentation I gave on <InlineLink text='Seifert Surfaces' url='/PPTs/SeifertSurfaces.pptx'/> with some neat transitions. 
                   </li>
                   <li>
-                    Some notes on <InlineLink text="Kontsevichs' Conjecture" url="/pdfs/Math/KontsevichConj.pdf"/>, adapted from a course taught by Prof. <InlineLink text='Melody Chan' url="https://www.math.brown.edu/mchan2/"/>.
+                    Some notes on <InlineLink text="Kontsevichs' Conjecture" url="/pdfs/Math/KontsevichConj.pdf"/>, adapted from a course taught by Prof. Melody Chan.
                   </li>
                   <li>
-                    A <InlineLink text='Probabilistic Method crash-course' url='/pdfs/Math/ProbabilisticMethod.pdf'/>, originally written as a series of mini-lectures for Math75SI students. The examples range from game theory to graph theory to Euclidean geometry. 
+                    A <InlineLink text='Probabilistic Method crash-course' url='/pdfs/Math/ProbabilisticMethod.pdf'/>; examples ranging from game theory to graph theory to Euclidean geometry. 
                   </li>
                 </ul>
                 <Button buttonText='See More' buttonLink='/Exposition'></Button>
