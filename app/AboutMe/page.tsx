@@ -31,7 +31,7 @@ export default function Page() {
                 <br/>
                 <p><u className="font-medium text-sky-200"> Song Titles </u> </p>
                 <ul className="list-disc list-inside">
-                    <li> <em>The Only Difference Between Martydrom and Suicide is Press Coverage</em> -- Panic! At The Disco</li>
+                    <li> <em>The Only Difference Between Martyrdom and Suicide is Press Coverage</em> -- Panic! At The Disco</li>
                     <li> <em>Headfirst Slide into Cooperstown on a Bad Bet</em> -- Fall Out Boy </li>
                     <li> <em>Sun Bleached Flies</em> -- Ethel Cain </li>
                 </ul>
