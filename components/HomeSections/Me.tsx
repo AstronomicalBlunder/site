@@ -28,7 +28,7 @@ export default function Me() {
             <motion.div className="h-full w-1/2 flex flex-col items-center justify-center gap-10 text-xs md:text-sm lg:text-base"
             variants={textAnim} initial="initial" animate="animate"> 
                 <h1 className="text-xl lg:text-3xl font-semibold text-sky-300">Hello Universe,</h1>
-                <p> I'm Aaryan, a fourth-year undergrad majoring in math at &nbsp;<InlineLink text="Stanford University" url="https://www.stanford.edu"/>.
+                <p> I'm Aaryan, a coterminal masters student in math at &nbsp;<InlineLink text="Stanford University" url="https://www.stanford.edu"/>.
                 I'm primarily interested in number theory, algebraic geometry, combinatorics, and whatever weird and wonderful ways they may
                 overlap. In <InlineLink text="Dyson's Classification" url="https://www.ams.org/notices/200902/rtx090200212p.pdf"/> terms, I'd categorize
                 myself as a flying frog. 
@@ -38,7 +38,7 @@ export default function Me() {
                 and eventually go on to become a professor, educator, writer and communicator of mathematics.
                 </p>
                 <p>
-                  Apart from math I read and think a lot about computer science, physics, philosophy and creative fiction.
+                  Apart from math I read and think about computer science, physics, philosophy and creative fiction sometimes.
                   Look around the site to see more. Contact me at <InlineLink text="aaryan11@stanford.edu" url="mailto:aaryan11@stanford.edu"/>.
                 </p>
                 <div className="flex flex-row w-full justify-center gap-10 mb-10">
