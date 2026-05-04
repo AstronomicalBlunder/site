@@ -72,11 +72,6 @@ export default function Math() {
                             <InlineLink text="REU" url='https://surim.stanford.edu/sites/g/files/sbiybj26191/files/media/file/ben_and_spencer_group_1.pdf'/> on <b>Supersingular Diagonal Curves</b> at SURIM 2023. Done in collaboration with MachaDom and RPCat.
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            (Ongoing) <InlineLink text="Honors Thesis" url='https://github.com/AstronomicalBlunder/Math-Writing/blob/main/Senior%20Thesis/ThesisNotes.pdf'/> on number-theoretic Langlands, supervised by Prof. Brian Conrad. Updated every week or so.
-                        </p>
-                    </li>
                 </ul>
             </div>
             <div className = "h-full w-[75vw] md:w-[25vw] flex flex-col justify-start items-center gap-5 lg:gap-10 px-2.5">
@@ -105,6 +100,11 @@ export default function Math() {
                     </svg>
                 <h1 className="text-lg md:text-xl lg:text-2xl  font-semibold text-sky-300">Exposition</h1>
                 <ul className="list-disc space-y-1">
+					<li>
+						 <p>
+                            <InlineLink text="Bachelor's Honors Thesis" url='https://github.com/AstronomicalBlunder/Math-Writing/blob/main/Senior%20Thesis/ThesisNotes.pdf'/> on adelic analysis.
+                        </p>
+					</li>
                   <li>
                     A presentation I gave on <InlineLink text='Seifert Surfaces' url='/PPTs/SeifertSurfaces.pptx'/> with some neat transitions. 
                   </li>
